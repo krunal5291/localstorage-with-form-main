@@ -24,6 +24,8 @@ const Login = (e) => {
     if(log==true){
         document.querySelector("#logout").innerHTML = "logout";
     }
+    
 }
+
 
 document.querySelector("#login").addEventListener("submit",Login);
